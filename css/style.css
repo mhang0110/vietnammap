@@ -28,8 +28,10 @@ body {
 .vn-map {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 1140px;
   height: 100%;
+  margin: auto;
 }
 
 .vn-map__map {
@@ -197,4 +199,25 @@ body {
   margin: 12px 0 0;
   font-size: 14px;
   font-family: "Lora", serif;
+}
+
+.vn-map__description {
+  width: 500px;
+  text-align: center;
+}
+
+.vn-map__description-title {
+  font-family: "Playfair Display", serif;
+  color: #ebf29d;
+  font-size: 28px;
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+  font-style: italic;
+}
+
+.vn-map__description-content {
+  margin: 28px 0 0;
+  font-family: "Lora", serif;
+  color: #132a13;
+  font-size: 17px;
+  text-align: justify;
 }
