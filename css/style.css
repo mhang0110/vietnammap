@@ -202,7 +202,7 @@ body {
 }
 
 .vn-map__description {
-  width: 500px;
+  width: 520px;
   text-align: center;
 }
 
@@ -217,7 +217,8 @@ body {
 .vn-map__description-content {
   margin: 28px 0 0;
   font-family: "Lora", serif;
-  color: #132a13;
+  color: #fff8dc;
   font-size: 17px;
+  line-height: 1.5;
   text-align: justify;
 }
